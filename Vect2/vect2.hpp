@@ -9,6 +9,7 @@ class vect2
 		vect2(int x, int y);
 		vect2(const vect2& other);
 		vect2& operator=(const vect2& other);
+		~vect2();
 
 		bool operator==(const vect2& other) const;
 		bool operator!=(const vect2& other) const;
