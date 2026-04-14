@@ -33,6 +33,7 @@ int main()
     std::cout << "v3[1]: " << v3[1] << std::endl;
     std::cout << "v1 == v3: " << (v1 == v3) << std::endl;
     std::cout << "v1 == v1: " << (v1 == v1) << std::endl;
+    std::cout << "v1 == (v1 * 12): " << (v1 == (v1 * 12)) << std::endl;
     std::cout << "v1 != v3: " << (v1 != v3) << std::endl;
     std::cout << "v1 != v1: " << (v1 != v1) << std::endl;
 }
